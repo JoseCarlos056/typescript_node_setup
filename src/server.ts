@@ -1,6 +1,5 @@
 import express from 'express'
-const app = express();
-app.get('/',(req,res)=>{
-    return res.json({status:true})
-})
-app.listen(3333);
+
+const app = express()
+app.get('/', (req, res) => res.json({ status: true }))
+app.listen(3333)
